@@ -3995,6 +3995,7 @@ class ops:
 
             pass
 
+        @staticmethod
         def stl(filepath="", filter_glob="*.stl", files=None, directory=""):
             '''Load STL triangle mesh data
             Arguments:
@@ -7103,7 +7104,8 @@ class ops:
 
             pass
 
-        def empty_add(type='PLAIN_AXES', view_align=False, location=(0.0, 0.0, 0.0), rotation=(0.0, 0.0, 0.0), layers=(False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False)):
+        @staticmethod
+        def empty_add(type='PLAIN_AXES', radius=0, view_align=False, location=(0.0, 0.0, 0.0), rotation=(0.0, 0.0, 0.0), layers=(False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False)):
             '''Add an empty object to the scene
             Arguments:
             @type (str): in ['PLAIN_AXES', 'ARROWS', 'SINGLE_ARROW', 'CIRCLE', 'CUBE', 'SPHERE', 'CONE', 'IMAGE'], (optional)
