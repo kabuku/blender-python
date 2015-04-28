@@ -5,6 +5,8 @@ This project is a part of rinkak blog (https://www.rinkak.com/us/blog?hl=ja). Yo
 
 ![](https://lh3.googleusercontent.com/dRpQ6GliPHdKgAp83VHB1dctppCOeNZ9ulQHqADAEljNO-bSH6npD2fsgMsX_hhFyIhTu-Nd2OCO9Yx2-xtAnw=s640)
 
+![](https://lh3.googleusercontent.com/6GcEEn7aevNq9WpWZH7NeHg8DtEjzinXSsNxu4S_SCwFiQ-dj6992zQGsxIt_YrFUKbdSDmoF_hZSeaovlwVRJPu=s640)
+
 ## Get started
 1. First of all, you have to set up the environment to run python scripts in blender. I've already write [an article](https://www.rinkak.com/jp/blog/blender-python-modeling-1) about this issue, so please check it. (This article is currently written in Japanese, but it will be translated to English in the near future.)
 2. Clone this repository to your local.
@@ -14,7 +16,13 @@ blender -P tut1.py
 ```
 
 ## Complement
-Codes in blenderlib are for auto-completion in your editor. Though these codes are not maintained with the latest python api in blender, it may work well for almost part of your projects. 
+Codes in blenderlib are for auto-completion in your editor. Though these codes are not maintained with the latest python api in blender, it may work well for almost part of your projects.
+ 
+## Blog articles list
+1. [Environment setting](https://www.rinkak.com/blog/blender-python-modeling-1) 
+2. [Add primitive objects](https://www.rinkak.com/blog/blender-python-modeling-2) 
+3. [Boolean operation & 3D print](https://www.rinkak.com/blog/blender-python-modeling-3) 
+4. [Apply simple deform modifier](https://www.rinkak.com/blog/blender-python-modeling-4) 
 
 ## Author & License
 ![](http://www.kabuku.co.jp/img/kabuku-logo.png)
